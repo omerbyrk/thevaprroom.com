@@ -1,5 +1,5 @@
 force_remote_control: true
-use_local: true
+use_local: false
 
 firebase_configuration_key: "configuration"
 
@@ -9,12 +9,12 @@ build_version:
 
 deep_link:
   apple_team_id: "RP55H9K2Y6"
-  link: "webvify.app"
+  link: "thevaprroom.com"
 
 flutter_application_id:
   android: 
-    id: "com.webvify.app"
-    name: "Webvify"
+    id: "com.thevaprroom.app"
+    name: "The Vapr Room"
   ios:
     id: "com.webvify.app"
     name: "Webvify"
@@ -31,24 +31,24 @@ flutter_icons:
   adaptive_icon_foreground: "assets/build/android_icon/ic_launcher_adaptive_fore.png"
   adaptive_icon_background: "assets/build/android_icon/ic_launcher_adaptive_back.png"
 
-flutter_native_splash:
-  image: "assets/build/splash_screen/splash_icon.png"
-  color: "#FFFFFF"
-  # when you activate this parameter, the status bar gets invisible on the android app. 
-  # Don't recomended to make it true
-  fullscreen: false
-  # branding: "assets/build/splash_screen/splash_signature.png"
-  android_12: 
-    image: "assets/build/splash_screen/splash_android12_icon.png"
-    # branding: "assets/build/splash_screen/splash_signature.png"
-
-
 # flutter_native_splash:
-#   color: "#000000"
+#   image: "assets/build/splash_screen/splash_icon.png"
+#   color: "#FFFFFF"
+#   # when you activate this parameter, the status bar gets invisible on the android app. 
+#   # Don't recomended to make it true
 #   fullscreen: false
-#   android_12:
-#     image: assets/build/splash_screen/splash_icon.png
-#     color: "#000000"
+#   # branding: "assets/build/splash_screen/splash_signature.png"
+#   android_12: 
+#     image: "assets/build/splash_screen/splash_android12_icon.png"
+#     # branding: "assets/build/splash_screen/splash_signature.png"
+
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  fullscreen: false
+  android_12:
+    image: assets/build/splash_screen/splash_icon_tr.png
+    color: "#FFFFFF"
 
 
 

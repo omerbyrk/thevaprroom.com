@@ -1,43 +1,26 @@
 {
   "project_info": {
-    "project_number": "611360762966",
-    "project_id": "webvify-app-demo",
-    "storage_bucket": "webvify-app-demo.appspot.com"
+    "project_number": "303615157412",
+    "project_id": "the-vapr-room-app",
+    "storage_bucket": "the-vapr-room-app.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:611360762966:android:4ae33946f5d8fca0a05ff7",
+        "mobilesdk_app_id": "1:303615157412:android:c585c69cd8523d0210b231",
         "android_client_info": {
-          "package_name": "com.webvify.app"
+          "package_name": "com.thevaprroom.app"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "611360762966-n1929cnu4si704nkq9c06gta1er12f4p.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyArv5p83mDgQZpG1lud-SmcYruFrUqc65o"
+          "current_key": "AIzaSyBICN-0z6Nq29egmsB9d1UTzK1UdpYWolE"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "611360762966-n1929cnu4si704nkq9c06gta1er12f4p.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "611360762966-2c60d7ldfffte29fq78dldnludvfos9u.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.webvify.app"
-              }
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

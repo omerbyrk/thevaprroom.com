@@ -12,7 +12,7 @@ import '../widgets/loading_spinner.dart';
 bool lookedForOnboardingScreen = false;
 bool lookedForSplashScreen = false;
 
-bool isSecondarySplashScreenActive = false;
+bool isSecondarySplashScreenActive = true;
 
 // ignore: slash_for_doc_comments
 /**

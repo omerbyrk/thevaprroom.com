@@ -5,7 +5,7 @@
         ],
         "target": {
             "namespace": "android_app",
-            "package_name":"com.webvify.app",
+            "package_name":"com.thevaprroom.app",
             "sha256_cert_fingerprints": [
                 "A6:AA:BB:95:62:73:94:46:46:FD:E6:4E:05:A2:53:14:08:32:7A:DD:D7:F4:4B:54:5A:8C:83:FE:5A:FC:B9:03",
                 "C9:8A:47:16:86:9C:3D:1F:C4:66:FE:C7:EF:34:8A:60:59:1A:57:88:E7:87:A6:DA:FA:0C:8F:74:11:3E:1A:29"

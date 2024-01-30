@@ -17,7 +17,7 @@ class SplashScreen extends StatefulWidget {
 
 class SplashScreenState extends State<SplashScreen> with ScreenBase {
   final String imageURL = tr("splash_image");
-  final bool isFullscreen = true;
+  final bool isFullscreen = false;
 
   @override
   void initState() {
@@ -49,9 +49,14 @@ class SplashScreenState extends State<SplashScreen> with ScreenBase {
                   child: SafeArea(
                     child: FadeAnimationWidget(
                       key: Key(imageURL),
-                      child: Image(
-                        image: imageURL.toImageProvider,
-                        fit: BoxFit.cover,
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(24.0),
+                        child: Image(
+                          width: 250,
+                          height: 250,
+                          image: imageURL.toImageProvider,
+                          fit: BoxFit.cover,
+                        ),
                       ),
                     ),
                   ),

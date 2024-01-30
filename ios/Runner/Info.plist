@@ -76,13 +76,13 @@
 		<key>NSLocalNetworkUsageDescription</key>
 		<string>Allow Flutter tools on your computer to connect and debug your application.</string>
 		<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-		<string>This allow us to get your location to provide you the service. It will be only used for app functionality. We do not share it with  third party companies.</string>
+		<string>This allow us to get your location to provide you the service. It will be only used for app functionality. We do not share it with third party companies.</string>
 		<key>NSLocationAlwaysUsageDescription</key>
-		<string>This allow us to get your location to provide you the service. It will be only used for app functionality. We do not share it with  third party companies</string>
+		<string>This allow us to get your location to provide you the service. It will be only used for app functionality. We do not share it with third party companies</string>
 		<key>NSLocationUsageDescription</key>
-		<string>This allow us to get your location to provide you the service. It will be only used for app functionality. We do not share it with  third party companies</string>
+		<string>This allow us to get your location to provide you the service. It will be only used for app functionality. We do not share it with third party companies</string>
 		<key>NSLocationWhenInUseUsageDescription</key>
-		<string>This allow us to get your location to provide you the service. It will be only used for app functionality. We do not share it with  third party companies</string>
+		<string>This allow us to get your location to provide you the service. It will be only used for app functionality. We do not share it with third party companies</string>
 		<key>NSMicrophoneUsageDescription</key>
 		<string>This allow you to record audio in the app and share it the platform</string>
 		<key>NSMotionUsageDescription</key>

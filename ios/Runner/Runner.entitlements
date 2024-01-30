@@ -6,9 +6,9 @@
 	<string>development</string>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>applinks:webvify.page.link</string>
-		<string>applinks:webvify.app</string>
-		<string>applinks:www.webvify.app</string>
+		<string>applinks:thevaprroom.page.link</string>
+		<string>applinks:thevaprroom.com</string>
+		<string>applinks:www.thevaprroom.com</string>
 	</array>
 </dict>
 </plist>
