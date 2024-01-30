@@ -1,0 +1,122 @@
+name: webvify
+description: webview source code for webvify.app website
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1 # use the build-configuration.yaml file to change versions
+
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  awesome_dialog: 3.1.0
+  connectivity_plus: 2.3.9
+  device_info_plus: 8.1.0
+  easy_localization: 3.0.2
+  firebase_analytics: 10.0.6
+  firebase_auth: 4.1.5
+  firebase_core: 2.4.0
+  firebase_messaging: 14.1.3
+  firebase_remote_config: 3.0.6
+  firebase_ui_auth: 1.1.1
+  flutter_app_badger: 1.5.0
+  flutter_barcode_scanner: 2.0.0
+  flutter_downloader: 1.10.2
+  flutter_expandable_fab: 1.6.1
+  flutter_font_icons: 2.2.5
+  flutter_inappwebview: 6.0.0-beta.25
+  flutter_local_notifications: 9.9.1
+  flutter_phoenix: 1.1.0
+  flutter_share: 2.0.0
+  flutter_statusbarcolor_ns: 0.4.0
+  google_mobile_ads: 2.0.1
+  in_app_review: 2.0.4
+  location: 4.4.0
+  http: 0.13.5
+  move_to_background: 1.0.2
+  path_provider: 2.0.11
+  permission_handler: 10.2.0
+  persistent_bottom_nav_bar: 4.0.2
+  rxdart: 0.27.5
+  shared_preferences: 2.0.15
+  uni_links: 0.5.1
+  upgrader: 6.0.1
+  url_launcher: 6.1.10
+  yaml: 3.1.1
+  cached_network_image: 3.3.1
+  app_tracking_transparency: 2.0.4
+
+  # We gonna use the below dependencies in case we need.
+  # vibration: 1.7.7
+
+  # dependencies for shopping module
+  provider: 6.0.5
+  address_form: 0.0.2
+  flutter_credit_card: 3.0.6
+  # dependencies for shopping module
+
+dependency_overrides:
+  firebase_core_platform_interface: 4.6.0
+  simple_animations: 5.0.2
+  
+dev_dependencies:
+  flutter_launcher_icons: 0.9.3
+  flutter_lints: 2.0.1
+  flutter_native_splash: 2.2.13
+  configuration:
+    path: ./packages/configuration/
+    
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/images/error_screens/
+    - assets/javascripts/
+    - assets/css/
+    - assets/images/onboarding/
+    - assets/images/home/
+    - assets/config/build-configuration.yaml
+    - assets/config/runtime-configuration.json
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  #fonts:
+  #  - family: MyFlutterApp
+  #     fonts:
+  #      - asset: assets/fonts/MyFlutterApp.ttf
+  # example:
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages

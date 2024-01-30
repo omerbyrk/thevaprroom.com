@@ -1,0 +1,16 @@
+/**
+ * You can write your custom css code below
+ * The css will work only for both iOS and Android 
+ */
+
+li:has(> a.active),
+a[href*="tbm=isch"] {
+    /* styles to apply to the li tag */
+}
+
+
+.hide-in-app {
+    display: none !important;
+    width: 0px !important;
+    height: 0px !important;
+}

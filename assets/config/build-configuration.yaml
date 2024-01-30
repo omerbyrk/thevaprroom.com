@@ -1,0 +1,56 @@
+force_remote_control: true
+use_local: true
+
+firebase_configuration_key: "configuration"
+
+build_version:
+  build_name: "1.0.0"
+  build_number: "1"
+
+deep_link:
+  apple_team_id: "RP55H9K2Y6"
+  link: "webvify.app"
+
+flutter_application_id:
+  android: 
+    id: "com.webvify.app"
+    name: "Webvify"
+  ios:
+    id: "com.webvify.app"
+    name: "Webvify"
+
+admob:
+  iOS_app_id: "ca-app-pub-9161075271982183~4448177903"
+  android_app_id: "ca-app-pub-9161075271982183~8514010450"
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "assets/build/ios_icon/ios_icon.png"
+  image_path_android: "assets/build/android_icon/ic_launcher.png"
+  adaptive_icon_foreground: "assets/build/android_icon/ic_launcher_adaptive_fore.png"
+  adaptive_icon_background: "assets/build/android_icon/ic_launcher_adaptive_back.png"
+
+flutter_native_splash:
+  image: "assets/build/splash_screen/splash_icon.png"
+  color: "#FFFFFF"
+  # when you activate this parameter, the status bar gets invisible on the android app. 
+  # Don't recomended to make it true
+  fullscreen: false
+  # branding: "assets/build/splash_screen/splash_signature.png"
+  android_12: 
+    image: "assets/build/splash_screen/splash_android12_icon.png"
+    # branding: "assets/build/splash_screen/splash_signature.png"
+
+
+# flutter_native_splash:
+#   color: "#000000"
+#   fullscreen: false
+#   android_12:
+#     image: assets/build/splash_screen/splash_icon.png
+#     color: "#000000"
+
+
+
+
+

@@ -1,0 +1,546 @@
+{
+  "webvify_version": 2,
+  "website_version": 1,
+  "config_fetch_interval": 0,
+  "initial_link": "https://google.com/",
+  "primary_color": "#000000",
+  "background_color": "#FFFFFF",
+  "login_screen": {
+    "active": false,
+    "disable_register": false,
+    "disable_go_home_button": false,
+    "force_to_login": true,
+    "account_float_button": true,
+    "brightness": true,
+    "background_color": "#FFFFFF",
+    "link_color": "#000000",
+    "logo": {
+      "url": "assets/images/home/home_icon.png",
+      "width": 150,
+      "height": 150
+    }
+  },
+  "home_screen": {
+    "active": false,
+    "go_home_float_button": true,
+    "status_bar": false,
+    "background_url": "assets/images/home/home_background.png",
+    "logo_field": {
+      "location": "top_center",
+      "padding": {
+        "top": 100.0,
+        "left": 0.0,
+        "bottom": 0.0,
+        "right": 0.0
+      },
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "url": "assets/images/home/home_icon.png"
+    },
+    "botton_field": {
+      "location": "top_center",
+      "padding": {
+        "top": 300.0,
+        "left": 30.0,
+        "bottom": 0.0,
+        "right": 30.0
+      },
+      "size": {
+        "width": 999,
+        "height": 999
+      },
+      "horizontal_button_count": 1,
+      "horizontal_button_spacing": 10,
+      "vertical_button_spacing": 10,
+      "button_aspect_ratio": 6,
+      "buttons": [
+        {
+          "title": "DEMO for book",
+          "background_color": "#000000",
+          "foreground_color": "#FFFFFF",
+          "url": "https://calendly.com/webvify/book",
+          "icon_spacing": 8.0,
+          "icon": {
+            "icon_code": 61445,
+            "font_family": "FontAwesome5_Solid"
+          }
+        },
+        {
+          "title": "Try App Sharing Feature",
+          "background_color": "#000000",
+          "foreground_color": "#FFFFFF",
+          "url": "feature://app_sharing",
+          "icon_spacing": 8.0,
+          "icon": {
+            "icon_code": 61540,
+            "font_family": "FontAwesome5_Solid"
+          }
+        },
+        {
+          "title": "Try QRCode Feature",
+          "background_color": "#000000",
+          "foreground_color": "#FFFFFF",
+          "url": "feature://qr_code",
+          "icon_spacing": 8.0,
+          "icon": {
+            "icon_code": 61481,
+            "font_family": "FontAwesome5_Solid"
+          }
+        },
+        {
+          "title": "Try In App Review Feature",
+          "background_color": "#000000",
+          "foreground_color": "#FFFFFF",
+          "url": "feature://in_app_review",
+          "icon_spacing": 8.0,
+          "icon": {
+            "icon_code": 61574,
+            "font_family": "FontAwesome5_Solid"
+          }
+        },
+        {
+          "title": "Go Introduction (with example images)",
+          "background_color": "#000000",
+          "foreground_color": "#FFFFFF",
+          "url": "route://onboarding",
+          "icon_spacing": 8.0,
+          "icon": {
+            "icon_code": 61444,
+            "font_family": "FontAwesome"
+          }
+        },
+        {
+          "title": "Go Not Online",
+          "background_color": "#000000",
+          "foreground_color": "#FFFFFF",
+          "url": "route://not-online",
+          "icon_spacing": 8.0,
+          "icon": {
+            "icon_code": 984490,
+            "font_family": "MaterialCommunityIcons"
+          }
+        },
+        {
+          "title": "Go Store",
+          "background_color": "#000000",
+          "foreground_color": "#FFFFFF",
+          "url": "route://shopping",
+          "icon_spacing": 8.0,
+          "icon": {
+            "icon_code": 62798,
+            "font_family": "FontAwesome5_Solid"
+          }
+        },
+        {
+          "title": "Go Account",
+          "background_color": "#000000",
+          "foreground_color": "#FFFFFF",
+          "url": "route://login",
+          "icon_spacing": 8.0,
+          "icon": {
+            "icon_code": 61447,
+            "font_family": "FontAwesome5_Solid"
+          }
+        }
+      ]
+    }
+  },
+  "in_app_links": [
+    "https://www.facebook.com/v3.3",
+    "https://m.facebook.com/v3.3",
+    "https://m.facebook.com(.)*",
+    "(.)*accounts.google(.)*",
+    "https://m.accounts.google.com/o/",
+    "(.)*accounts.youtube(.)*",
+    "(.)*calendly.com(.)*",
+    "https://accounts.google.com/_/",
+    "https://m.facebook.com/oauth",
+    "https://m.facebook.com"
+  ],
+  "app_url_rules": [
+    {
+      "index": -1,
+      "url": "https://domain.com",
+      "rule": "out"
+    },
+    {
+      "index": 999,
+      "url": "(.)*",
+      "rule": "out"
+    }
+  ],
+  "status_bar": {
+    "background_color": "#ffffff",
+    "brightness": false
+  },
+  "loading_screen": {
+    "active": true,
+    "background_color": "#26000000",
+    "secondary_background_color": "#FFFFFF",
+    "loading_spinner_url": "assets/images/loading.gif",
+    "color": "#000000",
+    "hide_loading_screen_at": 100
+  },
+  "login_auto_fill": {
+    "active": false,
+    "username_htmlinput_name": "email",
+    "password_htmlinput_name": "password"
+  },
+  "app_bar": {
+    "active": false,
+    "default_title": "app_bar_title",
+    "keep_default": true,
+    "background_color": "#FFFFFF",
+    "foreground_color": "#000000",
+    "elevation": 0,
+    "center_title": true
+  },
+  "bottom_control_bar": {
+    "active": false,
+    "background_color": "#FFFFFF",
+    "icon_color": "#000000"
+  },
+  "app_rating": {
+    "active": true,
+    "delay_time": 60,
+    "delay_day": 7
+  },
+  "qr_code": {
+    "active": false,
+    "redirect_url": "https://webvify.app?qr_code={{QR_CODE}}",
+    "type": "qrcode"
+  },
+  "app_sharing": {
+    "active": false,
+    "android_share_text": "https://play.google.com/store/apps/details?id=com.webvify.app",
+    "iOS_share_text": "https://testflight.apple.com/join/SzrHPpRV"
+  },
+  "user_agent": {
+    "android": "Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/294.0.0.39.118;] android_mobile_app",
+    "ios": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Mobile/15E148 Safari/604.1 ios_mobile_app"
+  },
+  "preferences": {
+    "add_firebase_token_to_initial_url": false,
+    "add_login_user_id_initial_url": false,
+    "app_tracking_transparency": true,
+    "download_enabled": true,
+    "alert_errors": false,
+    "use_should_override_url_loading": true,
+    "android_resize_to_avoid_bottom_inset": true,
+    "iOS_resize_to_avoid_bottom_inset": false,
+    "pull_to_refresh": true,
+    "app_upgrader": false,
+    "vertical_orientations": true,
+    "notification_permission": true,
+    "location_permission": false,
+    "camera_permission": false,
+    "storage_permission": false,
+    "microphone_permission": false,
+    "force_notification_permission": false,
+    "force_location_permission": false,
+    "force_camera_permission": false,
+    "force_storage_permission": false,
+    "force_microphone_permission": false,
+    "support_zoom": true,
+    "vertical_scroll_bar_enabled": false,
+    "horizontal_scroll_bar_enabled": false,
+    "disable_vertical_scroll": false,
+    "disable_horizontal_scroll": false,
+    "media_playback_requires_user_gesture": false,
+    "disable_context_menu": false,
+    "ios_allow_link_preview": false,
+    "allows_inline_media_playback": true,
+    "ios_disable_long_press_context_menu_on_links": true,
+    "clear_cache": false,
+    "expandable_button_initial_open": false,
+    "splash_delay": 0,
+    "float_button_bottom_padding": 0.0,
+    "javascript_url": "",
+    "css_url": "",
+    "javascript_code": "setTimeout(() => addDeleteMyAccount(``), 1000)",
+    "css_code": "footer, #onetrust-consent-sdk { display: none !important; width: 0px !important; height: 0px !important; }"
+  },
+  "onboarding_screen": {
+    "active": false,
+    "show_on_every_launch": true,
+    "image_urls": [
+      "onboarding_image_1",
+      "onboarding_image_2",
+      "onboarding_image_3"
+    ]
+  },
+  "bottom_navigation_bar": {
+    "active": false,
+    "background_color": "#ffffff",
+    "style_no": 16,
+    "initial_index": 2,
+    "listen_webview": false,
+    "hide_on_this_urls": [],
+    "navbar_items": [
+      {
+        "item": {
+          "title": "Favorites",
+          "size": 30,
+          "url": "https://webvify.app",
+          "icon": {
+            "icon_code": 59517,
+            "font_family": "MaterialIcons"
+          }
+        }
+      },
+      {
+        "item": {
+          "title": "Shop",
+          "size": 30,
+          "url": "https://webvify.app",
+          "icon": {
+            "icon_code": 984218,
+            "font_family": "MaterialCommunityIcons"
+          }
+        }
+      },
+      {
+        "item": {
+          "title": "Home",
+          "size": 30,
+          "url": "https://webvify.app",
+          "icon": {
+            "icon_code": 59530,
+            "font_family": "MaterialIcons",
+            "color": "#ffffff"
+          }
+        }
+      },
+      {
+        "item": {
+          "title": "Contact",
+          "size": 30,
+          "url": "https://webvify.app",
+          "icon": {
+            "icon_code": 984050,
+            "font_family": "MaterialCommunityIcons"
+          }
+        }
+      },
+      {
+        "item": {
+          "title": "Account",
+          "size": 30,
+          "url": "https://webvify.app",
+          "icon": {
+            "icon_code": 59389,
+            "font_family": "MaterialIcons"
+          }
+        }
+      }
+    ]
+  },
+  "mobile_ads": {
+    "active": false,
+    "keywords": [
+      "calculator",
+      "healty"
+    ],
+    "non_personalized_ads": false,
+    "app_open_ads": {
+      "active": false,
+      "iOS_ad_id": "ca-app-pub-3940256099942544/5662855259",
+      "android_ad_id": "ca-app-pub-3940256099942544/3419835294",
+      "max_cache_duration": 3600
+    },
+    "banner_ads": {
+      "active": false,
+      "iOS_ad_id": "ca-app-pub-3940256099942544/2934735716",
+      "android_ad_id": "ca-app-pub-3940256099942544/6300978111",
+      "location": "top"
+    },
+    "interstitial_ads": {
+      "active": false,
+      "iOS_ad_id": "ca-app-pub-3940256099942544/4411468910",
+      "android_ad_id": "ca-app-pub-3940256099942544/1033173712",
+      "interval_duration": 9999,
+      "show_click_on_bottom_nav_bar": true
+    }
+  },
+  "localization": {
+    "default_locale": "en",
+    "supported_locales": [
+      "en",
+      "tr"
+    ],
+    "translations": {
+      "en": {
+        "app_is_not_installed": "The app could not started, may the app is not installed on the phone!",
+        "tap_to_exit": "Tap back again to leave",
+        "retry": "RETRY",
+        "go_home": "GO HOME",
+        "network_connection_is_failed": "Network Connection is Failed! For testing purpose, please try to connect any address with browser",
+        "no_connection_screen_title": "No Connection",
+        "no_connection_screen_body": "Your internet connection was not found, Please retry",
+        "cache_cleaned": "Cache is cleaned due to changes on server side",
+        "cancel": "Cancel",
+        "restart": "Restart",
+        "next": "Next",
+        "skip": "Skip",
+        "done": "Done",
+        "app_bar_title": "App Bar Title",
+        "Favorites": "Favorites",
+        "Shop": "Shop",
+        "Home": "Home",
+        "Contact": "Contact",
+        "Account": "Account",
+        "delete_my_account_title": "You are deleting your account",
+        "delete_my_account_body": "Do you want to delete the account with all the stored data? It will be deleted if you confirm this dialog.",
+        "delete": "Delete",
+        "onboarding_image_1": "assets/images/onboarding/1.png",
+        "onboarding_image_2": "assets/images/onboarding/2.png",
+        "onboarding_image_3": "assets/images/onboarding/3.png",
+        "download_file_failed_to_open": "The downloaded file failed to open. Please be sure you have installed the compatible application to open the file.",
+        "Store": "Store",
+        "add_to_cart": "Add to Cart",
+        "price": "Price",
+        "order_now": "ORDER NOW",
+        "total": "Total",
+        "cart": "Cart",
+        "cart_is_empty": "Cart is empty!",
+        "product_added_to_cart": "Product is added to the cart",
+        "no_product_to_display": "No Products to Display!",
+        "welcome": "Welcome",
+        "products": "Products",
+        "favourites": "Favourites",
+        "orders": "Orders",
+        "quit_to_home": "Quit to Home",
+        "Street address": "Street address",
+        "Apt, suite, etc.": "Apt, suite, etc.",
+        "Postcode": "Postcode",
+        "City": "City",
+        "Address": "Address",
+        "Payment": "Payment",
+        "Cart Number": "Cart Number",
+        "Expired Date": "Expired Date",
+        "CVV": "CVV",
+        "Cart Holder": "Cart Holder",
+        "Place Order": "Place Order",
+        "no_orders_to_display": "No Orders to Display!",
+        "cart_empty_error": "Cart is empty, you can't place order!",
+        "app_settings": "App Settings",
+        "check_permission": "Check Permission",
+        "permission_required": "Permission is Required",
+        "notification_permission_required": "To run the app effiently, you have to give notification permission from app settings!",
+        "camera_permission_required": "To run the app effiently, you have to give camera permission from app settings!",
+        "storage_permission_required": "To run the app effiently, you have to give storage permission from app settings!",
+        "location_permission_required": "To run the app effiently, you have to give location permission from app settings!",
+        "microphone_permission_required": "To run the app effiently, you have to give microphone permission from app settings!",
+        "account_is_deleted": "The account is deleted successfully!",
+        "logged_out": "You logged out successfully",
+        "logged_in": "You logged in successfully",
+        "splash_image": "assets/images/splash.gif",
+        "splash_background": "#ffffff"
+      },
+      "tr": {
+        "app_is_not_installed": "Uygulama cihazınızda yüklü değil!",
+        "tap_to_exit": "Çıkmak için tekrar geri tuşuna basınız",
+        "retry": "Tekrar Dene",
+        "go_home": "Ana Sayfaya Dön",
+        "network_connection_is_failed": "İnternet Bağlantısı başarısız! Test için lütfen herhangi bir adrese tarayıcı ile bağlanmayı deneyin",
+        "no_connection_screen_title": "Bağlantı Kurulamadı",
+        "no_connection_screen_body": "İnternet bağlantınız bulunamadı, lütfen tekrar deneyin",
+        "cache_cleaned": "Sunucu tarafındaki değişiklikler nedeniyle önbellek temizlendi",
+        "cancel": "Kapat",
+        "restart": "Yeniden başlat",
+        "next": "Sonraki",
+        "skip": "Atla",
+        "done": "Bitti",
+        "app_bar_title": "App Bar Başlık",
+        "Favorites": "Favoriler",
+        "Shop": "Mağaza",
+        "Home": "Ana Sayfa",
+        "Contact": "İletişim",
+        "Account": "Hesap",
+        "delete_my_account_title": "Hesabınızı siliyorsunuz",
+        "delete_my_account_body": "Hesabı tüm saklanan verilerle silmek istiyor musunuz? Bu iletişim kutusunu onaylarsanız silinecek.",
+        "delete": "Sil",
+        "onboarding_image_1": "assets/images/onboarding/1.png",
+        "onboarding_image_2": "assets/images/onboarding/2.png",
+        "onboarding_image_3": "assets/images/onboarding/3.png",
+        "download_file_failed_to_open": "The downloaded file failed to open. Please be sure you have installed the compatible application to open the file.",
+        "Store": "Mağaza",
+        "add_to_cart": "Sepete Ekleyin",
+        "product_added_to_cart": "Ürün sepete eklendi",
+        "price": "Fiyat",
+        "order_now": "SİPARİŞ VER",
+        "total": "Toplam",
+        "cart": "Sepet",
+        "cart_is_empty": "Sepet boş!",
+        "no_product_to_display": "Ürün listesi boş!",
+        "welcome": "Hoşgeldin",
+        "products": "Ürünler",
+        "favourites": "Favoriler",
+        "orders": "Siparişler",
+        "quit_to_home": "Ana Sayfaya Dön",
+        "Street address": "Cadde",
+        "Apt, suite, etc.": "Apartman, daire no..",
+        "Postcode": "Posta Kodu",
+        "City": "Şehir",
+        "Address": "Adres",
+        "Payment": "Ödeme",
+        "Cart Number": "Kart Numarası",
+        "Expired Date": "Son Kul. Tarihi",
+        "CVV": "CVV",
+        "Cart Holder": "Kart Sahibi",
+        "Place Order": "Ödeme Yap",
+        "no_orders_to_display": "Sipariş listesi boş!",
+        "cart_empty_error": "Sepet boş, sipariş veremezsiniz",
+        "app_settings": "Uygulama Ayarları",
+        "check_permission": "İzni Kontrol Et",
+        "permission_required": "İzin Gereklidir",
+        "notification_permission_required": "Uygulamanın doğru çalışması için, uygulama ayarlarından bildirim iznini vermeniz gerekiyor!",
+        "camera_permission_required": "Uygulamanın doğru çalışması için, uygulama ayarlarından kamera iznini vermeniz gerekiyor!",
+        "storage_permission_required": "Uygulamanın doğru çalışması için, uygulama ayarlarından disk erişim iznini vermeniz gerekiyor!",
+        "location_permission_required": "Uygulamanın doğru çalışması için, uygulama ayarlarından lokasyon iznini vermeniz gerekiyor!",
+        "microphone_permission_required": "TUygulamanın doğru çalışması için, uygulama ayarlarından mikrofon iznini vermeniz gerekiyor!",
+        "account_is_deleted": "Hesabınız başarıyla silindi!",
+        "logged_out": "Başarıyla çıkış yaptınız.",
+        "logged_in": "Başarıyla giriş yaptınız.",
+        "splash_image": "assets/images/splash.gif",
+        "splash_background": "#ffffff"
+      }
+    }
+  },
+  "cookies": [],
+  "shopping": {
+    "price_unit": "$",
+    "products": [
+      {
+        "id": "p1",
+        "title": "T-Shirt",
+        "description": "A white t-shirt. You can buy it to support us!",
+        "price": 29.9,
+        "imageUrl": "https://kigili.akinoncdn.com/products/2020/09/19/120690/3482ed20-8519-4019-97a6-032716ac1040_size555x830_quality90_cropCenter.jpg"
+      },
+      {
+        "id": "p2",
+        "title": "Cuff Pants",
+        "description": "A nice pair of Pants. You can buy it to support us.",
+        "price": 250.99,
+        "imageUrl": "https://cdn.sportime.com.tr/content/images/thumbs/2de43ce8-aa85-4f87-bb19-84276954d77a_elastic-cuff-pants_900.jpeg"
+      },
+      {
+        "id": "p3",
+        "title": "Cup",
+        "description": "Here is an minimalist cup for your coffe. You can buy it to support us.",
+        "price": 19.99,
+        "imageUrl": "https://st2.depositphotos.com/3480741/10149/i/450/depositphotos_101493694-stock-photo-white-tea-cup.jpg"
+      },
+      {
+        "id": "p4",
+        "title": "Book Stand",
+        "description": "If you need a stand for large and heavy books or a viewing station for your tablet, the Nantucket Bamboo Book Stand is the perfect solution. You can buy it for support",
+        "price": 49.99,
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0600/3720/2069/products/AD10080_NANTUCKET_BAMBOO_BOOK_STAND_s1_1024x.jpg"
+      }
+    ]
+  }
+}

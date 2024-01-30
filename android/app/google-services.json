@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "611360762966",
+    "project_id": "webvify-app-demo",
+    "storage_bucket": "webvify-app-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611360762966:android:4ae33946f5d8fca0a05ff7",
+        "android_client_info": {
+          "package_name": "com.webvify.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611360762966-n1929cnu4si704nkq9c06gta1er12f4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArv5p83mDgQZpG1lud-SmcYruFrUqc65o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611360762966-n1929cnu4si704nkq9c06gta1er12f4p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "611360762966-2c60d7ldfffte29fq78dldnludvfos9u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.webvify.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
