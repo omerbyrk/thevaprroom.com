@@ -17,7 +17,7 @@ class SplashScreen extends StatefulWidget {
 
 class SplashScreenState extends State<SplashScreen> with ScreenBase {
   final String imageURL = tr("splash_image");
-  final bool isFullscreen = false;
+  final bool isFullscreen = true;
 
   @override
   void initState() {
@@ -78,7 +78,7 @@ class SplashScreenState extends State<SplashScreen> with ScreenBase {
             key: Key(imageURL),
             child: Image(
               image: imageURL.toImageProvider,
-              fit: BoxFit.cover,
+              fit: BoxFit.fitWidth,
             ),
           ),
         ),

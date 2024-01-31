@@ -35,7 +35,7 @@
     • Flutter extension version 3.81.20231227
 
 [✓] Connected device (3 available)
-    • sdk gphone64 arm64 (mobile) • emulator-5554 • android-arm64  • Android 13 (API 33) (emulator)
+    • sdk gphone64 arm64 (mobile) • emulator-5554 • android-arm    • Android null (API null)
     • macOS (desktop)             • macos         • darwin-arm64   • macOS 14.1.2 23B92 darwin-arm64
     • Chrome (web)                • chrome        • web-javascript • Google Chrome 121.0.6167.85
 

@@ -436,8 +436,8 @@
         "account_is_deleted": "The account is deleted successfully!",
         "logged_out": "You logged out successfully",
         "logged_in": "You logged in successfully",
-        "splash_image": "assets/images/splash.jpg",
-        "splash_background": "#ffffff"
+        "splash_image": "assets/images/splash.png",
+        "splash_background": "#111111"
       }
     }
   },
